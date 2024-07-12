@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Nlv</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">&lt; Varun &gt;</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
+                        </li>           
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <p class="fs-1 fw-bold">Projects</p>
+                <p class="mw-650">Detailed explanation about personal and professional projects design, technologies used and links required to showcase</p>
+            </div>
+        </section>
+
+        <section class="project-1 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-4"><span>Professional Projects</span></h1>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <!-- <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
+                                
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h3 class="card-title">Stand Alone Project 1</h3>
+                                    <h6>Summary</h6>
+                                    <p class="card-text">
+                                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                                    </p>
+                                    
+                                    <h6>Features</h6>
+                                    <ul>
+                                        <li>
+                                            <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                        </li>
+                                        <li>
+                                            <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                        </li>
+                                        <li>
+                                            <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                        </li>
+                                        <li>
+                                            <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                        </li>
+                                        <li>
+                                            <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                        </li>
+                                    </ul>
+                                    
+                                    <h6>Technologies Used</h6>
+                                    <ul>
+                                        <li>
+                                            <b>JavaFX</b> for GUI design and development.
+                                        </li>
+                                        <li>
+                                            <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                        </li>
+                                        <li>
+                                            <b>Redis</b> for distributed caching.
+                                        </li>
+                                        <li>
+                                            <b>Email Service</b> for forgot password recovery.
+                                        </li>
+                                        <li>
+                                            <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                        </li>
+                                        <li>
+                                            <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                        </li>
+                                    </ul>
+                                
+                                    <h6>Learning Outcomes</h6>
+                                    <ul>
+                                        <li>
+                                            <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and account recovery (forgot password service) functionalities. Understood best practices for storing and managing user credentials securely.
+                                        </li>
+                                        <li>
+                                            <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
+                                        </li>
+                                        <li>
+                                            <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
+                                        </li>
+                                        <li>
+                                            <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
+                                        </li>
+                                        <li>
+                                            <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                        </li>
+                                        <li>
+                                            <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
+                                        </li>
+                                        <li>
+                                            <b>Data Binding and Real-time Updates:</b> Implemented data binding techniques to ensure real-time updates of visual and textual outputs based on user inputs. Used JavaFX's properties and bindings to synchronize data between the model and the view.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="95%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLymeoo2UINnFH96q44R5mt%2FFigma-basics%3Fnode-id%3D1669-162202%26t%3DmCYbAzLrPJKOVrE3-1" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <!-- <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
+                                
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h3 class="card-title">Stand Alone Project 2</h3>
+                                    <h6>Summary</h6>
+                                    <p class="card-text">
+                                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                                    </p>
+                                    
+                                    <h6>Features</h6>
+                                    <ul>
+                                        <li>
+                                            <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                        </li>
+                                        <li>
+                                            <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                        </li>
+                                        <li>
+                                            <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                        </li>
+                                        <li>
+                                            <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                        </li>
+                                        <li>
+                                            <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                        </li>
+                                    </ul>
+                                    
+                                    <h6>Technologies Used</h6>
+                                    <ul>
+                                        <li>
+                                            <b>JavaFX</b> for GUI design and development.
+                                        </li>
+                                        <li>
+                                            <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                        </li>
+                                        <li>
+                                            <b>Redis</b> for distributed caching.
+                                        </li>
+                                        <li>
+                                            <b>Email Service</b> for forgot password recovery.
+                                        </li>
+                                        <li>
+                                            <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                        </li>
+                                        <li>
+                                            <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                        </li>
+                                    </ul>
+                                
+                                    <h6>Learning Outcomes</h6>
+                                    <ul>
+                                        <li>
+                                            <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and account recovery (forgot password service) functionalities. Understood best practices for storing and managing user credentials securely.
+                                        </li>
+                                        <li>
+                                            <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
+                                        </li>
+                                        <li>
+                                            <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
+                                        </li>
+                                        <li>
+                                            <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
+                                        </li>
+                                        <li>
+                                            <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                        </li>
+                                        <li>
+                                            <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
+                                        </li>
+                                        <li>
+                                            <b>Data Binding and Real-time Updates:</b> Implemented data binding techniques to ensure real-time updates of visual and textual outputs based on user inputs. Used JavaFX's properties and bindings to synchronize data between the model and the view.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="95%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLymeoo2UINnFH96q44R5mt%2FFigma-basics%3Fnode-id%3D1669-162202%26t%3DmCYbAzLrPJKOVrE3-1" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section class="project-2 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4"><span>Private Projects (Frontend and Backend)</span></h2>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Automated Twitter Bot</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
+                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Sed, obcaecati?</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
+                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-light border border-secondary border-2">LIVE
+                                            DEMO</button></a>
+                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
+                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-4.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crypto Currency Portfolio Application</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
+                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Sed, obcaecati?</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
+                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-light border border-secondary border-2">LIVE
+                                            DEMO</button></a>
+                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
+                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-3 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4"><span>Private Projects (UI projects)</span></h2>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Netflix Clone</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
+                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Sed, obcaecati?</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
+                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-light border border-secondary border-2">LIVE
+                                            DEMO</button></a>
+                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
+                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Amazon Clone</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
+                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Sed, obcaecati?</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
+                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
+                                        <button type="button"
+                                            class="btn btn-light border border-secondary border-2">LIVE
+                                            DEMO</button></a>
+                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
+                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-light pt-4 pb-2">
+        <div class="container d-flex flex-wrap">
+            <p class="fs-4 fw-bold pe-4">Nlv Varun</p>
+            <div class="d-flex flex-grow-1 justify-content-between align-items-center flex-wrap">
+                <ul class="d-flex list-unstyled">
+                    <li class="pe-2">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="px-2"><a href="./projects.html">Projects</a></li>
+                </ul>
+                <ul class="d-flex flex-row list-unstyled">
+                    <li class="px-2">
+                        <a href="" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+            
+                    <li class="px-2">
+                        <a href="" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
