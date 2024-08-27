@@ -45,182 +45,677 @@
             </div>
         </section>
 
-        <section class="project-1 my-5">
+        
+        <button id="toggleButton" style="width: 100% ;border:none; background-color:rgb(234, 234, 235); padding:20px; border-radius:10px; margin:10px" type="button">
+            <span style="float: left">Professional projects</span>
+            <span id="arrowRight" style="float: right; transform: rotate(-90deg)">&#10094;</span>
+            <span id="arrowLeft" style="float: right; transform: rotate(90deg); display: none;">&#10094;</span>
+        </button>
+
+        <section id="projectSection" class="project-1 my-5 fade-in-top hidden" style="width: 95%; margin:auto">
             <div class="row">
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <h1 class="mb-4"><span>Professional Projects</span></h1>
-                </div>
+                </div> -->
+
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <!-- <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
-                                
-                            </div> -->
+                        <div class="row g-0">            
                             <div class="col-md-12">
+
                                 <div class="card-body">
-                                    <h3 class="card-title">Stand Alone Project 1</h3>
-                                    <h6>Summary</h6>
-                                    <p class="card-text">
-                                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                                    </p>
+
+                                    <div id="toggleButtonh1" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Stand Alone Project 1</h3>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style="display:inline; width: 80px; height: 34px; vertical-align: middle; margin-right:1%">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="display:inline; width: 80px; height: 34px; vertical-align: middle;">
+                                        <span id="arrowRighth1" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth1" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+                                     
+                                    <div id="projectSectionh1" class="projectdata hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                           <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                          
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>JavaFX</b> for GUI design and development.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>Redis</b> for distributed caching.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Email Service</b> for forgot password recovery.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+                                              
+                                        </ul>
                                     
-                                    <h6>Features</h6>
-                                    <ul>
-                                        <li>
-                                            <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
-                                        </li>
-                                        <li>
-                                            <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
-                                        </li>
-                                        <li>
-                                            <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
-                                        </li>
-                                        <li>
-                                            <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
-                                        </li>
-                                        <li>
-                                            <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
-                                        </li>
-                                    </ul>
-                                    
-                                    <h6>Technologies Used</h6>
-                                    <ul>
-                                        <li>
-                                            <b>JavaFX</b> for GUI design and development.
-                                        </li>
-                                        <li>
-                                            <b>MongoDB</b> NoSQL database for storing user data and project data.
-                                        </li>
-                                        <li>
-                                            <b>Redis</b> for distributed caching.
-                                        </li>
-                                        <li>
-                                            <b>Email Service</b> for forgot password recovery.
-                                        </li>
-                                        <li>
-                                            <b>Apache POI and iText</b> for generating .txt and .pdf reports.
-                                        </li>
-                                        <li>
-                                            <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
-                                        </li>
-                                    </ul>
-                                
-                                    <h6>Learning Outcomes</h6>
-                                    <ul>
-                                        <li>
-                                            <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and account recovery (forgot password service) functionalities. Understood best practices for storing and managing user credentials securely.
-                                        </li>
-                                        <li>
-                                            <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
-                                        </li>
-                                        <li>
-                                            <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
-                                        </li>
-                                        <li>
-                                            <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
-                                        </li>
-                                        <li>
-                                            <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
-                                        </li>
-                                        <li>
-                                            <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
-                                        </li>
-                                        <li>
-                                            <b>Data Binding and Real-time Updates:</b> Implemented data binding techniques to ensure real-time updates of visual and textual outputs based on user inputs. Used JavaFX's properties and bindings to synchronize data between the model and the view.
-                                        </li>
-                                    </ul>
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and forgot password service functionalities. Understood best practices for storing and managing user credentials securely.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://t3.ftcdn.net/jpg/04/28/95/04/360_F_428950438_huH4H4ljvjUNHmihS5c1Zz8KvlGpGISo.jpg" alt="JavaFX" style="width: 140px; height: 54px; vertical-align: middle;">
+                                                <img src="https://static.vecteezy.com/system/resources/previews/023/362/615/original/forgot-password-text-button-forgot-password-sign-icon-label-sticker-web-buttons-vector.jpg" alt="JavaFX" style="width: 100px; height: 84px; vertical-align: middle;">
+                                            </div>
+    
+    
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://img.freepik.com/premium-vector/encapsulation-concept-icon_106317-33855.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                                <img src="https://img.freepik.com/premium-vector/abstraction-concept-icon_106317-33853.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            </div>
+                                                      
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://media.istockphoto.com/id/1367766076/vector/database-storage-icon-vector-for-your-website-design-logo-app-ui-illustration.jpg?s=612x612&w=0&k=20&c=5-nzlAxbGQMw-lJcZc_P9QbHWXGb00ZLimhhwtr9rnc=" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                               
+                                            </div>
+    
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://icon-library.com/images/gui-icon/gui-icon-24.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                               
+                                            </div>
+    
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYMD5-2zWl9cmnQpNEvkpPW2oK1Ld3n3RqA&s" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/4248/4248321.png" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.freepik.com/256/9579/9579304.png?semt=ais_hybrid" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                            </div>
+    
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <div class="logo">
+                                                    SINGLETON PATTERN | MVC PATTERN| DAO PATTERN
+                                                </div>
+                                            </div>
+    
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Data Binding and Real-time Updates:</b> Implemented data binding techniques to ensure real-time updates of visual and textual outputs based on user inputs. Used JavaFX's properties and bindings to synchronize data between the model and the view.
+                                                </div>
+                                            </li>
+                                                                                                                                        
+                                        </ul>
+
+                                    </div>                             
                                 </div>
                                 
                             </div>
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="95%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLymeoo2UINnFH96q44R5mt%2FFigma-basics%3Fnode-id%3D1669-162202%26t%3DmCYbAzLrPJKOVrE3-1" allowfullscreen></iframe>
+                            
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <!-- <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
-                                
-                            </div> -->
+                        <div class="row g-0">            
                             <div class="col-md-12">
                                 <div class="card-body">
-                                    <h3 class="card-title">Stand Alone Project 2</h3>
-                                    <h6>Summary</h6>
-                                    <p class="card-text">
-                                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                                    </p>
+
+
+                                    <div id="toggleButtonh2" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Stand Alone Project 2 (Using Rest API's)    </h3>
+                                        
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style="width: 80px; height: 34px; vertical-align: middle; margin-right:1% ;display:inline;">                                       
+                                        <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="JavaFX" style="width: 40px; height: 34px; vertical-align: middle; margin-right:1%;display:inline; ">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 80px; height: 34px; vertical-align: middle; margin-right:1%; display:inline;">                          
+                                        
+                                        <span id="arrowRighth2" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth2" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                  
+                                    </div> 
                                     
-                                    <h6>Features</h6>
-                                    <ul>
-                                        <li>
-                                            <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
-                                        </li>
-                                        <li>
-                                            <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
-                                        </li>
-                                        <li>
-                                            <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
-                                        </li>
-                                        <li>
-                                            <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
-                                        </li>
-                                        <li>
-                                            <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
-                                        </li>
-                                    </ul>
+                                    <div id="projectSectionh2" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+
+                                        <ul>
+                                        <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                                </div>
+                                            </li>
+
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                                </div>
+                                            </li>
+
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                                </div>
+                                            </li>
+
+                                            
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Api Management:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                        
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>JavaFX</b> for GUI design and development.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>Redis</b> for distributed caching.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Email Service</b> for forgot password recovery.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Rest Api</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Spring Boot</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
                                     
-                                    <h6>Technologies Used</h6>
-                                    <ul>
-                                        <li>
-                                            <b>JavaFX</b> for GUI design and development.
-                                        </li>
-                                        <li>
-                                            <b>MongoDB</b> NoSQL database for storing user data and project data.
-                                        </li>
-                                        <li>
-                                            <b>Redis</b> for distributed caching.
-                                        </li>
-                                        <li>
-                                            <b>Email Service</b> for forgot password recovery.
-                                        </li>
-                                        <li>
-                                            <b>Apache POI and iText</b> for generating .txt and .pdf reports.
-                                        </li>
-                                        <li>
-                                            <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
-                                        </li>
-                                    </ul>
-                                
-                                    <h6>Learning Outcomes</h6>
-                                    <ul>
-                                        <li>
-                                            <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and account recovery (forgot password service) functionalities. Understood best practices for storing and managing user credentials securely.
-                                        </li>
-                                        <li>
-                                            <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
-                                        </li>
-                                        <li>
-                                            <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
-                                        </li>
-                                        <li>
-                                            <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
-                                        </li>
-                                        <li>
-                                            <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
-                                        </li>
-                                        <li>
-                                            <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
-                                        </li>
-                                        <li>
-                                            <b>Data Binding and Real-time Updates:</b> Implemented data binding techniques to ensure real-time updates of visual and textual outputs based on user inputs. Used JavaFX's properties and bindings to synchronize data between the model and the view.
-                                        </li>
-                                    </ul>
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and forgot password service functionalities. Understood best practices for storing and managing user credentials securely.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://t3.ftcdn.net/jpg/04/28/95/04/360_F_428950438_huH4H4ljvjUNHmihS5c1Zz8KvlGpGISo.jpg" alt="JavaFX" style="width: 140px; height: 54px; vertical-align: middle;">
+                                                <img src="https://static.vecteezy.com/system/resources/previews/023/362/615/original/forgot-password-text-button-forgot-password-sign-icon-label-sticker-web-buttons-vector.jpg" alt="JavaFX" style="width: 100px; height: 84px; vertical-align: middle;">
+                                            </div>
+
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://img.freepik.com/premium-vector/encapsulation-concept-icon_106317-33855.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                                <img src="https://img.freepik.com/premium-vector/abstraction-concept-icon_106317-33853.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            </div>
+                                                    
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://media.istockphoto.com/id/1367766076/vector/database-storage-icon-vector-for-your-website-design-logo-app-ui-illustration.jpg?s=612x612&w=0&k=20&c=5-nzlAxbGQMw-lJcZc_P9QbHWXGb00ZLimhhwtr9rnc=" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            
+                                            </div>
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://icon-library.com/images/gui-icon/gui-icon-24.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            
+                                            </div>
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYMD5-2zWl9cmnQpNEvkpPW2oK1Ld3n3RqA&s" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/4248/4248321.png" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.freepik.com/256/9579/9579304.png?semt=ais_hybrid" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                            </div>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <div class="logo">
+                                                    SINGLETON PATTERN | MVC PATTERN| DAO PATTERN
+                                                </div>
+                                            </div>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Microservices Communication:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://www.felpfe.com/wp-content/uploads/sites/4/2023/08/1_KH-i7gZC9UEUELeMhnAugg.jpg" alt="JavaFX" style="width: 140px; height: 124px; vertical-align: middle;">                                      
+                                            </div>
+                                                                                                                        
+                                        </ul>
+
+                                    </div>
+                                    
+                                    
+
                                 </div>
                                 
                             </div>
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="95%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLymeoo2UINnFH96q44R5mt%2FFigma-basics%3Fnode-id%3D1669-162202%26t%3DmCYbAzLrPJKOVrE3-1" allowfullscreen></iframe>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">       
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+
+                                    <div id="toggleButtonh3" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Web Development Project</h3>
+                                        
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">  
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline; ">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle; display:inline;">
+                                        
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline; ">
+                                        
+                                        <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;display:inline; ">
+
+                                        <span id="arrowRighth3" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth3" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                  
+                                    </div>  
+                                    
+                                    <div id="projectSectionh3" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        
+                                        <ul>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                                </div>
+                                            </li>
+    
+                                            
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Api Management:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                    
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>React</b> for building the frontend web application.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>Redis</b> for distributed caching.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Email Service</b> for forgot password recovery.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Rest Api</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Spring Boot REST API</b> Instead of using JDBC, a Spring Boot REST API approach is adopted for backend database connections.
+                                                </div>
+                                            </li>  
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>HTML,CSS,SCSS,TAILWIND</b> for frontend UI.
+                                                </div>
+                                            </li>     
+
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and forgot password service functionalities. Understood best practices for storing and managing user credentials securely.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://t3.ftcdn.net/jpg/04/28/95/04/360_F_428950438_huH4H4ljvjUNHmihS5c1Zz8KvlGpGISo.jpg" alt="JavaFX" style="width: 140px; height: 54px; vertical-align: middle;">
+                                                <img src="https://static.vecteezy.com/system/resources/previews/023/362/615/original/forgot-password-text-button-forgot-password-sign-icon-label-sticker-web-buttons-vector.jpg" alt="JavaFX" style="width: 100px; height: 84px; vertical-align: middle;">
+                                            </div>
+
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>OOP with Singleton Design Pattern:</b> Applied object-oriented programming principles using the Singleton design pattern.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://img.freepik.com/premium-vector/encapsulation-concept-icon_106317-33855.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                                <img src="https://img.freepik.com/premium-vector/abstraction-concept-icon_106317-33853.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            </div>
+                                                    
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Database Management:</b> Designed and implemented a schema for user and project data in MongoDB. Performed CRUD operations and handled data persistence.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://media.istockphoto.com/id/1367766076/vector/database-storage-icon-vector-for-your-website-design-logo-app-ui-illustration.jpg?s=612x612&w=0&k=20&c=5-nzlAxbGQMw-lJcZc_P9QbHWXGb00ZLimhhwtr9rnc=" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            
+                                            </div>
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>Graphical User Interface (GUI) Development:</b> Designed intuitive and user-friendly forms for data input using JavaFX. Implemented dynamic UI elements that respond to user input in real-time and developed a graphical canvas for real-time drawings and visual feedback.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://icon-library.com/images/gui-icon/gui-icon-24.jpg" alt="JavaFX" style="width: 140px; height: 144px; vertical-align: middle;">
+                                            
+                                            </div>
+
+                                            <li style="display: flex; align-items: center;">
+                                                
+                                                <div>
+                                                    <b>File Export and Report Generation:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYMD5-2zWl9cmnQpNEvkpPW2oK1Ld3n3RqA&s" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/4248/4248321.png" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                                <img src="https://cdn-icons-png.freepik.com/256/9579/9579304.png?semt=ais_hybrid" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                            </div>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Software Architecture:</b> Applied the Model-View-Controller (MVC) pattern to separate concerns and improve maintainability. Implemented the Singleton and DAO patterns for efficient resource management and data access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <div class="logo">
+                                                    SINGLETON PATTERN | MVC PATTERN| DAO PATTERN
+                                                </div>
+                                            </div>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Microservices Communication:</b> Exported graphical outputs as bitmap images and generated comprehensive textual reports in .txt and .pdf formats using libraries like Apache POI and iText. Provided export options in the GUI for easy user access.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://www.felpfe.com/wp-content/uploads/sites/4/2023/08/1_KH-i7gZC9UEUELeMhnAugg.jpg" alt="JavaFX" style="width: 140px; height: 124px; vertical-align: middle;">                                      
+                                            </div>
+                                                                                                                        
+                                        </ul>
+
+                                    </div>
+                                    
+
+                                </div>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                    
@@ -228,158 +723,940 @@
             </div>
         </section>
 
-        <section class="project-2 my-5">
+
+        <button id="toggleButton1" style="width: 100% ;border:none; background-color:rgb(234, 234, 235); padding:20px; border-radius:10px; margin:10px" type="button">
+            <span style="float: left">Personal Projects (Dynamic Websites)</span>
+            <span id="arrowRight1" style="float: right; transform: rotate(-90deg)">&#10094;</span>
+            <span id="arrowLeft1" style="float: right; transform: rotate(90deg); display: none;">&#10094;</span>
+        </button>
+
+        <section id="projectSection1" class="project-2 my-5 fade-in-top hidden" style="width: 95%; margin:auto">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4"><span>Private Projects (Frontend and Backend)</span></h2>
-                </div>
+         
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-3.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
                                 <div class="card-body">
-                                    <h5 class="card-title">Automated Twitter Bot</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
+
+                                    <div id="toggleButtonh8" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Filmpire</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth8" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth8" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+                                    <div  id="projectSectionh8" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            Filmpire is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                                            </li>
+                                            <li>
+                                                <b>Flexbox Layout:</b> Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.
+                                            </li>
+                                            <li>
+                                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                                            </li>
+                                            <li>
+                                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                                            </li>
+                                    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                        
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Flexbox Layout:</b> Effectively using Flexbox properties to create a flexible and responsive layout. Gain practical experience in using Flexbox to create flexible, responsive layouts.
+                                            </li>
+                                            <li>
+                                                <b>Dynamic Web Development:</b> Enhance skills in JavaScript for handling dynamic content and user interactions.
+                                            </li>
+                                            <li>
+                                                <b>Responsive Design Principles:</b> Learn and apply best practices for responsive web design.
+                                            </li>
+                                            <li>
+                                                <b>Visual Design:</b> Understand the impact of color in UI design and how to implement random color generation in a cohesive manner.
+                                            </li>
+                                        
+                                        </ul>
+
+                                    </div>
+                                
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-4.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
                                 <div class="card-body">
-                                    <h5 class="card-title">Crypto Currency Portfolio Application</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
+
+                                    <div id="toggleButtonh9" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Social App</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth9" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth9" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+                           
+
+                                    <div id="projectSectionh9" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            VGRID is a Static UI website designed to practice and master the CSS Grid layout concept. It allows users to dynamically add content, which is arranged using CSS Grid. The site demonstrates the flexibility and power of CSS Grid in creating responsive and complex layouts.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                                            </li>
+                                            <li>
+                                                <b>CSS Grid Layout:</b> Items are arranged using CSS Grid, showcasing various grid properties and layouts.
+                                            </li>
+                                            <li>
+                                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                                            </li>
+                                            <li>
+                                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                                            </li>
+                                       
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                         
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>CSS Grid Layout:</b> Gain practical experience in using CSS Grid to create flexible, responsive layouts.
+                                            </li>
+                                            <li>
+                                                <b>Dynamic Web Development:</b> Enhance skills in JavaScript for handling dynamic content and user interactions.
+                                            </li>
+                                            <li>
+                                                <b>Responsive Design Principles:</b> Learn and apply best practices for responsive web design.
+                                            </li>
+                                            <li>
+                                                <b>Visual Design:</b> Understand the impact of color in UI design and how to implement random color generation in a cohesive manner.
+                                            </li>
+                                          
+                                        </ul>
+                                        
+                                    </div>
+                                   
+
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+                                    <div id="toggleButtonh10" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Searching Algorithm's Visualizer</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth10" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth10" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+
+
+                                    <div id="projectSectionh10" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Grid Board Interactive Grid: </b> Users can click to set start and end points.
+                                            </li>
+                                            <li>
+                                                <b>Pathfinding Algorithms: </b> Implement and visualize various pathfinding algorithms such as Dijkstra’s Algorithm, Depth-First Search (DFS).
+                                            </li>
+                                            <li>
+                                                <b>Animation Speed Control:</b> Allow users to control the speed of the visualization.
+                                            </li>
+                                     
+                                       
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Frontend:</b> React, HTML, CSS, JavaScript.
+                                            </li>
+                                            <li>
+                                                <b>Algorithm Implementations:</b>  JavaScript (for implementing the pathfinding algorithms)
+                                            </li>
+                                         
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Algorithm Implementation:</b> Gain a deep understanding of various pathfinding algorithms and how to implement them.
+                                            </li>
+                                            <li>
+                                                <b>Interactive UI Design:</b> Enhance skills in creating interactive and responsive user interfaces.
+                                            </li>
+                                            <li>
+                                                <b>State Management: </b> Improve proficiency in managing complex application state using Hooks.
+                                            </li>
+                                            <li>
+                                                <b>Real-Time Visualization:</b> Learn techniques for visualizing algorithm processes in real-time.
+                                            </li>
+                                          
+                                        </ul>
+                                        
+                                    </div>
+                                  
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+                                    <div id="toggleButtonh11" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Portfolio</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth11" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth11" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+          
+
+                                    <div id="projectSectionh11" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Portfolio Website is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Personal Information: </b> A section to display your personal details, including your bio, skills, and contact information.
+                                            </li>
+                                            <li>
+                                                <b>Projects Showcase: </b> Sections to highlight your personal and professional projects with descriptions and screenshots.
+                                            </li>
+                                            <li>
+                                                <b>Interactive Elements:</b> Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.
+                                            </li>
+                                            <li>
+                                                <b>Contact Form:</b>  Integrated contact form using Nodemailer for sending emails directly from the website.
+                                            </li>
+                                            <li>
+                                                <b>Modern Design:</b> A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.
+                                            </li>
+                                    
+                                    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>React</b> for building the frontend web application.
+                                            </li>
+                                            <li>
+                                                <b>HTML & CSS:</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>Framer Motion</b>  for adding interactive animations and transitions.
+                                            </li>
+                                            <li>
+                                                <b>Nodemailer</b> for implementing email sending functionality from the contact form.
+                                            </li>
+                                        
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Frontend Development:</b> Enhance skills in building responsive and interactive web applications using React, HTML, and CSS.
+                                            </li>
+                                            <li>
+                                                <b>Animations:</b> Gain experience in using Framer Motion for creating interactive animations and transitions.
+                                            </li>
+                                            <li>
+                                                <b>Backend Integration: </b> Learn to integrate Nodemailer for handling email functionality in web applications.
+                                            </li>
+                                            <li>
+                                                <b>Portfolio Creation:</b> Understand best practices for creating a personal portfolio to effectively showcase projects and skills.
+                                            </li>
+                                        
+                                        </ul>
+                                        
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/PF1.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/PF3.png" allowfullscreen/>
+                              
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/PF2.png" allowfullscreen/>
+                                 
+
+                                    </div>
+                                    
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+                                    <div id="toggleButtonh12" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">Expense Tracker</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth12" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth12" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+          
+
+                                    <div id="projectSectionh12" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>User Management: </b> Secure login system to store and retrieve user profiles and their associated expenses.
+                                            </li>
+                                            <li>
+                                                <b>Expense Management: </b>   Intuitive forms for users to input expense details, including date, category, amount, and description.
+                                            </li>
+                                            <li>
+                                                <b>Expense Retrieval:</b> Users can view and retrieve their past expenses after logging in.
+                                            </li>
+                                            <li>
+                                                <b>Data Storage:</b> Uses JSON Server to store user data and expenses, ensuring easy data management and retrieval.
+                                            </li>
+                                    
+                                    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>React</b> For building the frontend web application.
+                                            </li>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>React Router</b> for handling client-side routing and navigation within the web application.
+                                            </li>
+                                            <li>
+                                                <b>JSON Server</b> for storing and retrieving user data and expenses.
+                                            </li>
+                                        
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Frontend Development:</b> Gain experience in building responsive and interactive web applications using React, HTML, and CSS.
+                                            </li>
+                                            <li>
+                                                <b>Routing:</b> Learn to use the latest version of React Router for client-side routing and navigation.
+                                            </li>
+                                            <li>
+                                                <b>Backend Simulation: </b> Understand how to use JSON Server to simulate a backend for storing and retrieving data.
+                                            </li>
+                                            <li>
+                                                <b>Data Security:</b> Implement basic user authentication and secure data management practices.
+                                            </li>
+                                        
+                                        </ul>
+
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/ExTracker1.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/ExTracker2.png" allowfullscreen/>
+                              
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/ExTracker3.png" allowfullscreen/>
+                                 
+                                        
+                                    </div>
+                                    
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section class="project-3 my-5">
+        <button id="toggleButton2" style="width: 100% ;border:none; background-color:rgb(234, 234, 235); padding:20px; border-radius:10px; margin:10px" type="button">
+            <span style="float: left">Personal Projects (Static Websites)</span>
+            <span id="arrowRight2" style="float: right; transform: rotate(-90deg)">&#10094;</span>
+            <span id="arrowLeft2" style="float: right; transform: rotate(90deg); display: none;">&#10094;</span>
+        </button>
+
+        <section id="projectSection2" class="project-3 my-5 fade-in-top hidden" style="width: 95%; margin:auto">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4"><span>Private Projects (UI projects)</span></h2>
-                </div>
+          
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-2.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
                                 <div class="card-body">
-                                    <h5 class="card-title">Netflix Clone</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
+
+                                    <div id="toggleButtonh4" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">VFLEX</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth4" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth4" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+                                    <div  id="projectSectionh4" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                
+                                                <div>
+                                                    <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Flexbox Layout:</b> Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                                            </li>
+                                    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                        
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                
+                                                <div>
+                                                    <b>Flexbox Layout:</b> Effectively using Flexbox properties to create a flexible and responsive layout. Gain practical experience in using Flexbox to create flexible, responsive layouts.
+                                                </div>
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6ef3d417-c5db-43dd-a988-b2713ce17ee6/01-susy-grid-opt.jpg" alt="JavaFX" style="width: 90px; height: 104px; vertical-align: middle;">
+                                            </div>
+                               
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Dynamic Web Development:</b> Enhance skills in JavaScript for handling dynamic content and user interactions.
+                                            </li>
+
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Responsive Design Principles:</b> Learn and apply best practices for responsive web design.
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://www.webfx.com/wp-content/uploads/2021/10/iStock-612224522.jpg" alt="JavaFX" style="width: 180px; height: 124px; vertical-align: middle;">
+                                            </div>
+                                   
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Visual Design:</b> Understand the impact of color in UI design and how to implement random color generation in a cohesive manner.
+                                            </li>
+                                        
+                                        </ul>
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VFLEX1.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/VFLEX2.png" allowfullscreen/>
+                              
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VFLEX3.png" allowfullscreen/>
+                                 
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1);" width="95%" height="auto" src="./media/VFLEX4.png" allowfullscreen/>
+                                          
+
+                                    </div>
+                                
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="card mb-3" style="max-width: 100%;">
-                        <div class="row g-0">
-                            <div class="col-md-4 d-flex align-items-center">
-                                <img src="./media/project-1.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
                                 <div class="card-body">
-                                    <h5 class="card-title">Amazon Clone</h5>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Minima corporis fugiat provident cupiditate voluptate incidunt nisi ad
-                                        molestiae, soluta tenetur. Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Sed, obcaecati?</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque!</p>
-                                    <a href="http://taskmatepro.herokuapp.com/" target="_blank">
-                                        <button type="button"
-                                            class="btn btn-light border border-secondary border-2">LIVE
-                                            DEMO</button></a>
-                                    <a href="https://github.com/ShubhamSarda/tmweb" target="_blank">
-                                        <button type="button" class="btn btn-dark">SOURCE CODE</button>
-                                    </a>
+
+                                    <div id="toggleButtonh5" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">VGRID</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth5" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth5" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+                           
+
+                                    <div id="projectSectionh5" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            VGRID is a Static UI website designed to practice and master the CSS Grid layout concept. It allows users to dynamically add content, which is arranged using CSS Grid. The site demonstrates the flexibility and power of CSS Grid in creating responsive and complex layouts.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>CSS Grid Layout:</b> Items are arranged using CSS Grid, showcasing various grid properties and layouts.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                                            </li>
+                                       
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                         
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>CSS Grid Layout:</b> Gain practical experience in using CSS Grid to create flexible, responsive layouts.
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://miro.medium.com/v2/resize:fit:2000/1*m2Q3kRG9yl5WyNIyoe15XA.png" alt="JavaFX" style="width: 140px; height: 104px; vertical-align: middle;">
+                                            </div>
+                                            
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Dynamic Web Development:</b> Enhance skills in JavaScript for handling dynamic content and user interactions.
+                                            </li>
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Responsive Design Principles:</b> Learn and apply best practices for responsive web design.
+                                            </li>
+                                            <div style="display: flex; align-items: center; justify-content:center;">
+                                                <img src="https://www.webfx.com/wp-content/uploads/2021/10/iStock-612224522.jpg" alt="JavaFX" style="width: 180px; height: 124px; vertical-align: middle;">
+                                            </div>
+                                   
+                                            <li style="display: flex; align-items: center; margin-top:3%">
+                                                <b>Visual Design:</b> Understand the impact of color in UI design and how to implement random color generation in a cohesive manner.
+                                            </li>
+                                          
+                                        </ul>
+
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VGRID1.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/VGRID2.png" allowfullscreen/>
+                              
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VGRID3.png" allowfullscreen/>
+                                 
+                                        
+                                    </div>
+                                   
+
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+                                    <div id="toggleButtonh6" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">VKANBAN</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth6" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth6" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+
+
+
+                                    <div id="projectSectionh6" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            VKANBAN is a static UI website designed to provide a visual task management system using the Kanban methodology. Similar to Jira, this application allows users to drag tasks between columns to track their status, making it easy to manage and visualize workflow.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Task Management: </b> Users can create tasks with descriptions and assign them to columns representing different stages of a workflow (e.g., To Do, In Progress, Done).
+                                            </li>
+                                            <li>
+                                                <b>Drag and Drop: </b>  Tasks can be dragged and dropped between columns to update their status.
+                                            </li>
+                                            <li>
+                                                <b>Dynamic UI:</b> The interface updates in real-time to reflect the current status of tasks.
+                                            </li>
+                                     
+                                       
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                         
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Drag and Drop API:</b> Gain practical experience in using JavaScript to implement drag-and-drop functionality.
+                                            </li>
+                                            <li>
+                                                <b>Dynamic Web Development:</b> Enhance skills in JavaScript for handling dynamic content and user interactions.
+                                            </li>
+                                            <li>
+                                                <b>Task Management Concepts: </b> Understand the principles of task management and the Kanban methodology.
+                                            </li>
+                                            <li>
+                                                <b>Responsive Design Principles:</b> Learn and apply best practices for responsive web design.
+                                            </li>
+                                          
+                                        </ul>
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VKANBAN2.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/VKANBAN1.png" allowfullscreen/>
+                              
+                                        
+                                    </div>
+                                  
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">                    
+                            <div class="col-md-12">
+                                <div class="card-body">
+
+                                    <div id="toggleButtonh7" class="Headingbutton">
+                                        <h3 class="card-title" style="display:inline; margin-right:1%">VPORTFOLIO</h3>
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://cdn.sanity.io/images/ss02266c/production/89e5223c15d52bfb9ec3f9d8a5ff28a16690105b-64x64.svg" alt="JavaFX" style="width: 60px; height: 44px; vertical-align: middle;display:inline;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;display:inline;">
+                                        
+                                        <span id="arrowRighth7" style="float: right; transform: rotate(-90deg); margin-right:20px;">&#10094;</span>
+                                        <span id="arrowLefth7" style="float: right; transform: rotate(90deg); display: none; margin-right:20px;">&#10094;</span>
+                                    </div>
+          
+
+                                    <div id="projectSectionh7" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                                        </p>
+                                        
+                                        <h6>Features</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Project Summaries: </b>  Each project includes a brief overview summarizing its purpose and goals.
+                                            </li>
+                                            <li>
+                                                <b>Detailed Descriptions: </b>  In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.
+                                            </li>
+                                            <li>
+                                                <b>Learning Outcomes:</b> Clear documentation of the skills and knowledge gained from each project.
+                                            </li>
+                                            <li>
+                                                <b>Interactive UI:</b> A user-friendly and visually appealing interface to navigate through different projects.
+                                            </li>
+                                    
+                                    
+                                        </ul>
+                                        
+                                        <h6>Technologies Used</h6>
+                                        <ul>
+                                            <li>
+                                                <b>HTML & CSS</b> for structuring and styling the web pages.
+                                            </li>
+                                            <li>
+                                                <b>JavaScript</b> for adding dynamic functionality, such as generating random colors and handling user input.
+                                            </li>
+                                            <li>
+                                                <b>React</b> for building the frontend web application.
+                                            </li>
+                                        
+                                        </ul>
+                                    
+                                        <h6>Learning Outcomes</h6>
+                                        <ul>
+                                            <li>
+                                                <b>Comprehensive Documentation:</b> Develop skills in documenting and presenting detailed information about projects.
+                                            </li>
+                                            <li>
+                                                <b>UI/UX Design:</b> Enhance abilities in creating an engaging and intuitive user interface.
+                                            </li>
+                                            <li>
+                                                <b>Project Presentation: </b> Learn to effectively showcase projects, highlighting key aspects and learning outcomes.
+                                            </li>
+                                            <li>
+                                                <b>Interactive Content:</b> Implement interactive elements to make the portfolio more engaging and user-friendly.
+                                            </li>
+                                        
+                                        </ul>
+
+                                        <h6>Screenshots</h6>
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VPORTFOLIO1.png" allowfullscreen/>
+                                  
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto"src="./media/VPORTFOLIO2.png" allowfullscreen/>
+                              
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1); margin-bottom: 20px;" width="95%" height="auto" src="./media/VPORTFOLIO3.png" allowfullscreen/>
+                                 
+                                        <img style="border: 5px solid rgba(0, 0, 0, 0.1);" width="95%" height="auto" src="./media/VPORTFOLIO4.png" allowfullscreen/>
+                                                                               
+                                                                           
+                                    </div>
+                                    
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
     </main>
 
-    <footer class="bg-light pt-4 pb-2">
-        <div class="container d-flex flex-wrap">
-            <p class="fs-4 fw-bold pe-4">Nlv Varun</p>
-            <div class="d-flex flex-grow-1 justify-content-between align-items-center flex-wrap">
-                <ul class="d-flex list-unstyled">
-                    <li class="pe-2">
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li class="px-2"><a href="./projects.html">Projects</a></li>
-                </ul>
-                <ul class="d-flex flex-row list-unstyled">
-                    <li class="px-2">
-                        <a href="" target="_blank">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </li>
-            
-                    <li class="px-2">
-                        <a href="" target="_blank">
-                            <i class="bi bi-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var toggleButton = document.getElementById('toggleButton');
+            var projectSection = document.getElementById('projectSection');
+            var arrowRight = document.getElementById('arrowRight');
+            var arrowLeft = document.getElementById('arrowLeft');
+            
+            toggleButton.addEventListener('click', function() {
+                var isHidden = projectSection.classList.contains('hidden');
+                projectSection.classList.toggle('hidden', !isHidden);
+                
+                if (isHidden) {
+                    arrowRight.style.display = 'none';
+                    arrowLeft.style.display = 'inline';
+                } else {
+                    arrowRight.style.display = 'inline';
+                    arrowLeft.style.display = 'none';
+                }
+            });
+
+
+            var toggleButton1 = document.getElementById('toggleButton1');
+            var projectSection1 = document.getElementById('projectSection1');
+            var arrowRight1 = document.getElementById('arrowRight1');
+            var arrowLeft1 = document.getElementById('arrowLeft1');
+            
+            toggleButton1.addEventListener('click', function() {
+                var isHidden1 = projectSection1.classList.contains('hidden');
+                projectSection1.classList.toggle('hidden', !isHidden1);
+                
+                if (isHidden1) {
+                    arrowRight1.style.display = 'none';
+                    arrowLeft1.style.display = 'inline';
+                } else {
+                    arrowRight1.style.display = 'inline';
+                    arrowLeft1.style.display = 'none';
+                }
+            });
+
+
+            var toggleButton2 = document.getElementById('toggleButton2');
+            var projectSection2 = document.getElementById('projectSection2');
+            var arrowRight2 = document.getElementById('arrowRight2');
+            var arrowLeft2 = document.getElementById('arrowLeft2');
+            
+            toggleButton2.addEventListener('click', function() {
+                var isHidden2 = projectSection2.classList.contains('hidden');
+                projectSection2.classList.toggle('hidden', !isHidden2);
+                
+                if (isHidden2) {
+                    arrowRight2.style.display = 'none';
+                    arrowLeft2.style.display = 'inline';
+                } else {
+                    arrowRight2.style.display = 'inline';
+                    arrowLeft2.style.display = 'none';
+                }
+            });
+        
+                toggleSection('toggleButtonh1', 'projectSectionh1', 'arrowRightH1', 'arrowLeftH1');
+                toggleSection('toggleButtonh2', 'projectSectionh2', 'arrowRightH2', 'arrowLeftH2');
+                toggleSection('toggleButtonh3', 'projectSectionh3', 'arrowRightH3', 'arrowLeftH3');
+                toggleSection('toggleButtonh4', 'projectSectionh4', 'arrowRightH4', 'arrowLeftH4');
+                toggleSection('toggleButtonh5', 'projectSectionh5', 'arrowRightH5', 'arrowLeftH5');
+                toggleSection('toggleButtonh6', 'projectSectionh6', 'arrowRightH6', 'arrowLeftH6');
+                toggleSection('toggleButtonh7', 'projectSectionh7', 'arrowRightH7', 'arrowLeftH7');
+                toggleSection('toggleButtonh8', 'projectSectionh8', 'arrowRightH8', 'arrowLeftH8');
+                toggleSection('toggleButtonh9', 'projectSectionh9', 'arrowRightH9', 'arrowLeftH9');
+                toggleSection('toggleButtonh10', 'projectSectionh10', 'arrowRightH10', 'arrowLeftH10');
+                toggleSection('toggleButtonh11', 'projectSectionh11', 'arrowRightH11', 'arrowLeftH11');
+                toggleSection('toggleButtonh12', 'projectSectionh12', 'arrowRightH12', 'arrowLeftH12');
+
+                function toggleSection(toggleButtonId, projectSectionId, arrowRightId, arrowLeftId) {
+                    var toggleButton = document.getElementById(toggleButtonId);
+                    var projectSection = document.getElementById(projectSectionId);
+                    var arrowRight = document.getElementById(arrowRightId);
+                    var arrowLeft = document.getElementById(arrowLeftId);
+                
+                    toggleButton.addEventListener('click', function() {
+                        var isHidden = projectSection.classList.contains('hidden');
+                        projectSection.classList.toggle('hidden', !isHidden);
+                
+                        if (isHidden) {
+                            arrowRight.style.display = 'inline';
+                            arrowLeft.style.display = 'none';
+                        } else {
+                            arrowRight.style.display = 'none';
+                            arrowLeft.style.display = 'inline';
+                        }
+                    });
+                }
+        
+
+
+
+
+
+
+
+        });
+
+    </script>
+
 </body>
 
 </html>
