@@ -1,25 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var pswpElement = document.querySelectorAll('.pswp')[0];
+const bgAnimation = document.getElementById('bgAnimation');
 
-    var items = [
-        {
-            src: './media/project-1.png',
-            w: 1600,
-            h: 900
-        },
-        // Add more images here
-    ];
+const numberOfColorBoxes = 400;
 
-    var options = {
-        index: 0
-    };
+for (let i = 0; i < numberOfColorBoxes; i++) {
+    const colorBox = document.createElement('div');
+    colorBox.classList.add('colorBox');
+    bgAnimation.append(colorBox)
+}
 
-    document.querySelectorAll('a').forEach(function (el, index) {
-        el.addEventListener('click', function (event) {
-            event.preventDefault();
-            options.index = index;
-            var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-            gallery.init();
-        });
-    });
-});
